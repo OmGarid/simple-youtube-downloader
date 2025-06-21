@@ -1,6 +1,7 @@
 {
-  "language": "identifier",
-  "output_dir": "C:/Users/User/Videos/Test",
+  "language": "en_us",
+  "output_path": "",
+  "audio_only": false,
   "advanced": {
     "enabled": false,
     "proxy": "",
