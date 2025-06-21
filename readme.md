@@ -20,8 +20,6 @@ Auto-installed on first run:
 
 ## 📦 How to Use
 
-### 🔧 Run GUI App
-
 ```bash
 python main.py
 ```
