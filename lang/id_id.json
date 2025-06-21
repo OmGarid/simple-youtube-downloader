@@ -1,11 +1,21 @@
 {
-  "app.title": "Pengunduh YouTube",
-  "label.link": "Link Vidio/Playlist YouTube:",
+  "lang.name": "Bahasa Indonesia",
+  "app.title": "Pengunduh Video",
+  "label.link": "Tautan Video:",
   "label.output": "Folder Output:",
   "button.choose": "Pilih Folder",
-  "option.audio_only": "Audio Only",
+  "option.audio_only": "Hanya Audio",
   "label.language": "Bahasa:",
-  "button.download": "Mulai Unduh",
-  "console.title": "Console",
-  "error.empty_link": "Link tidak boleh kosong."
+  "button.download": "Unduh",
+  "console.title": "Konsol",
+  "advanced.enable": "Aktifkan Mode Lanjutan",
+  "advanced.settings": "Atur Opsi Lanjutan",
+  "advanced.proxy": "Proxy (contoh: socks5://127.0.0.1:9050)",
+  "advanced.cookies": "Path File Cookies",
+  "advanced.user_agent": "User-Agent",
+  "advanced.headers": "Header Tambahan",
+  "advanced.save": "Simpan Pengaturan",
+  "unsupported.site": "⚠️ Situs ini mungkin tidak didukung oleh yt_dlp",
+  "info.checking": "Memeriksa dukungan situs...",
+  "info.ready": "Siap untuk mengunduh."
 }

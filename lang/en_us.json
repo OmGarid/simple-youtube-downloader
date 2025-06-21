@@ -1,11 +1,21 @@
 {
-  "app.title": "YouTube Downloader",
-  "label.link": "YouTube Video/Playlist Link:",
+  "lang.name": "English-US",
+  "app.title": "Video Downloader",
+  "label.link": "Video Link:",
   "label.output": "Output Folder:",
   "button.choose": "Choose Folder",
   "option.audio_only": "Audio Only",
   "label.language": "Language:",
   "button.download": "Download",
   "console.title": "Console",
-  "error.empty_link": "The link cannot be empty."
+  "advanced.enable": "Enable Advanced Mode",
+  "advanced.settings": "Edit Advanced Options",
+  "advanced.proxy": "Proxy (e.g. socks5://127.0.0.1:9050)",
+  "advanced.cookies": "Cookies File Path",
+  "advanced.user_agent": "User-Agent",
+  "advanced.headers": "Additional Headers",
+  "advanced.save": "Save Settings",
+  "unsupported.site": "⚠️ This site may not be supported by yt_dlp",
+  "info.checking": "Checking site support...",
+  "info.ready": "Ready to download."
 }
