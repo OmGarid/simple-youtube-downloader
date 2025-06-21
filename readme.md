@@ -1,4 +1,4 @@
-# 🎬 YouTube Playlist Downloader
+# 🎬 Simple YouTube Downloader
 
 A simple, elegant YouTube video & playlist downloader with GUI built using `tkinter` and `yt_dlp`.  
 Supports multilingual interface, folder selection, audio-only mode, and automatic dependency installation.
