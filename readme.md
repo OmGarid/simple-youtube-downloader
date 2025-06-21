@@ -26,25 +26,6 @@ Auto-installed on first run:
 python main.py
 ```
 
-### 🌍 Change Language via Command Line
-
-```bash
-python main.py -l en_us
-python main.py -l id_id
-```
-
-### ⚙️ Open Config Editor (WIP)
-
-```bash
-python main.py -s
-```
-
-### 🔗 Or Start Download via CLI (Optional)
-
-```bash
-python main.py https://youtu.be/example123
-```
-
 ## 📁 Output Folder
 <p>Downloads will be saved to the folder you selected.</p>
 
