@@ -1,4 +1,11 @@
 {
   "language": "en_us",
-  "output_dir": "C:/Users/User/Videos/Test"
+  "output_dir": "C:/Users/User/Videos/Test",
+  "advanced": {
+    "enabled": false,
+    "proxy": "",
+    "cookies": "",
+    "user_agent": "",
+    "headers": ""
+  }
 }
