@@ -1,30 +1,44 @@
 import json
 import os
 
-LANG_DIR = "lang"
 active_language_data = {}
+language_directory = os.path.join(os.path.dirname(__file__))
 
-def load_language(code):
+def load_language(lang_code: str):
+    """
+    Load language JSON file based on lang_code (e.g. 'en_us')
+    """
     global active_language_data
-    file_path = os.path.join(LANG_DIR, f"{code}.json")
-    if not os.path.exists(file_path):
-        print(f"⚠️ Language file not found: {file_path}")
-        return
-    with open(file_path, "r", encoding="utf-8") as f:
-        active_language_data = json.load(f)
+    file_path = os.path.join(language_directory, f"{lang_code}.json")
+    try:
+        with open(file_path, "r", encoding="utf-8") as f:
+            active_language_data = json.load(f)
+    except Exception as e:
+        print(f"⚠️ Failed to load language '{lang_code}': {e}")
+        active_language_data = {}
 
-def get_text(key):
+def get_text(key: str) -> str:
+    """
+    Get the translated text from loaded language data.
+    If key not found, returns [key].
+    """
     return active_language_data.get(key, f"[{key}]")
 
-def list_languages():
+def get_available_languages():
+    """
+    Scan /lang/ directory and return list of tuples:
+    [(language_code, full_name_from_json), ...]
+    """
     langs = []
-    for file in os.listdir(LANG_DIR):
-        if file.endswith(".json"):
-            path = os.path.join(LANG_DIR, file)
-            with open(path, "r", encoding="utf-8") as f:
-                try:
+    for filename in os.listdir(language_directory):
+        if filename.endswith(".json") and filename != "identifier.json":
+            code = filename[:-5]
+            path = os.path.join(language_directory, filename)
+            try:
+                with open(path, "r", encoding="utf-8") as f:
                     data = json.load(f)
-                    langs.append((file.replace(".json", ""), data.get("lang.name", "Unknown")))
-                except:
-                    continue
+                    name = data.get("lang.name", code)
+                    langs.append((code, name))
+            except:
+                continue
     return langs
