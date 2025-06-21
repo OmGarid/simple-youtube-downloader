@@ -1,0 +1,11 @@
+{
+  "app.title": "Pengunduh YouTube",
+  "label.link": "Link Vidio/Playlist YouTube:",
+  "label.output": "Folder Output:",
+  "button.choose": "Pilih Folder",
+  "option.audio_only": "Audio Only",
+  "label.language": "Bahasa:",
+  "button.download": "Mulai Unduh",
+  "console.title": "Console",
+  "error.empty_link": "Link tidak boleh kosong."
+}

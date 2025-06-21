@@ -1,0 +1,11 @@
+{
+  "app.title": "YouTube Downloader",
+  "download.starting": "Starting download...",
+  "download.finished": "Download completed.",
+  "download.error": "Error during download",
+  "usage.help": "Usage:\n  python main.py <url>\n  python main.py -s (settings)\n  python main.py -l <language_code)",
+  "settings.title": "Settings",
+  "settings.prompt.output_dir": "Download directory [{current}]: ",
+  "settings.saved": "Settings saved.",
+  "language.set": "Language set to {lang}"
+}

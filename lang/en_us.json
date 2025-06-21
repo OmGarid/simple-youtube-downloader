@@ -1,0 +1,11 @@
+{
+  "app.title": "YouTube Downloader",
+  "label.link": "YouTube Video/Playlist Link:",
+  "label.output": "Output Folder:",
+  "button.choose": "Choose Folder",
+  "option.audio_only": "Audio Only",
+  "label.language": "Language:",
+  "button.download": "Download",
+  "console.title": "Console",
+  "error.empty_link": "The link cannot be empty."
+}
